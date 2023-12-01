@@ -19,14 +19,19 @@ Follow these steps to set up and run the project locally:
    ```bash
    git clone https://github.com/your-username/poll-api.git
    cd poll-api
+   ```
 
 2. **Run database migrations:**
 
     ```bash
     python manage.py makemigrations
     python manage.py migrate
+    ```
 
 ### Running the Development Server
+    ```bash
+    python manage.py runserver
+    ```
 
 ### Endpoints
 - **GET**  /api/polls/: List all polls.
